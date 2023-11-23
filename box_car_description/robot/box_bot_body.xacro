@@ -27,7 +27,7 @@
             <box size="${base_box_x} ${base_box_y} ${base_box_z}"/>
           </geometry> -->
           <geometry>
-            <mesh filename="/home/ros2_ws/src/box_car/box_car_description/meshes/box_car.dae" scale="1.0 1.0 1.0"/>
+            <mesh filename="package://box_car_description/meshes/box_car.dae" scale="1.0 1.0 1.0"/>
           </geometry>
         </visual>
       </link>

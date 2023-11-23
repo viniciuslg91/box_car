@@ -5,7 +5,6 @@ from rclpy.node import Node
 from box_bot_perception.dummy_class import Dummy
 from std_msgs.msg import String
 
-
 class MinimalPublisher(Node):
 
     def __init__(self):

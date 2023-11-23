@@ -21,7 +21,7 @@
               <cylinder length="${l}" radius="${r + incr}"/>
             </geometry> -->
             <geometry>
-              <mesh filename="/home/ros2_ws/src/box_car/box_car_description/meshes/wheel.dae" scale="1.0 1.0 1.0"/>
+              <mesh filename="package://box_car_description/meshes/wheel.dae" scale="1.0 1.0 1.0"/>
             </geometry>
           </visual>
       </link>
