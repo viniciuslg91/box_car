@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <!-- Wheels-->
+    <!-- Wheels -->
     <xacro:macro  name="link_wheel" params="name r l incr">
       <link name="${name}">
           <inertial>
