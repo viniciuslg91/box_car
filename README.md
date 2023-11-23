@@ -1,6 +1,6 @@
 #BOX_CAR
 
-#I adapted the example of the box_car (origin link: https://bitbucket.org/theconstructcore/box_car/src/foxy/)
+#I adapted the example of the box_car (link of the video: https://www.youtube.com/watch?v=SgYiiraDL7A&list=PL93JTEJkWVdiUzrx2W8rU0_HVMx_F_WIh&index=8 and box_car link: https://bitbucket.org/theconstructcore/box_car/src/foxy/)
 
 #In this case I used ROS2 Humble  
 
