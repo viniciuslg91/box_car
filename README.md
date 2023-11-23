@@ -1,5 +1,4 @@
-# box_car
-ROS2 Humble
+#I used ROS2 Humble in box_car
 
 #Second The Construct:
   # Here we place usefull commands for many things in ROS2 used for the tutorials
