@@ -101,6 +101,7 @@
     </joint>
   </ros2_control> -->
 
+<!-- ROS2 Control-->
   <!-- Position Config -->
     <ros2_control name="GazeboSystem" type="system">
     <hardware>
@@ -126,11 +127,11 @@
     </joint>
   </ros2_control>
 
-
   <gazebo>
     <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
-      <!-- <parameters>$(find box_car_description)/config/steering_controller_velocity.yaml</parameters> -->
-      <parameters>$(find box_car_description)/config/steering_controller_position.yaml</parameters>
+      <!-- <parameters>$(find box_car_description)/config/steering_controller_velocity.yaml</parameters> 
+      <parameters>$(find box_car_description)/config/steering_controller_position.yaml</parameters> -->
+      <parameters>$(find box_car_bringup)/config/controller_configuration.yaml</parameters>
     </plugin>
   </gazebo>
 
